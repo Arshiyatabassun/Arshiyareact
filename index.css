@@ -1,3 +1,40 @@
-#heading{
-    color: red;
+.Header{
+    display: flex;
+    justify-content: space-around;
+   
 }
+
+.logo-container img{
+    width: 100px;
+}
+
+.nav-item > ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 23px;
+}
+
+.nav-item > ul >li{
+padding: 20px;
+}
+.res-img{
+    width: 200px;
+}
+.resturant-Container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.restro-card {
+    /* border: 1px solid black; */
+    width: 200px;
+    height: 320px;
+    padding: 5px;
+    margin: 5px;
+}
+.restro-card:hover{
+    border:1px solid grey;
+    cursor: pointer;
+}
+
